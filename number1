@@ -1,0 +1,9 @@
+#Stop gninnipS My sdroW!
+
+quote = input()
+words = quote.split()
+for word in words:
+ if len(word) >= 5:
+   word2 = word[::-1]
+   quote = quote.replace(word, word2)
+print(quote)
